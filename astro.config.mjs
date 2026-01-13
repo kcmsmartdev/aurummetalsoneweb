@@ -5,6 +5,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 
 
-    base: 'https://kcmsmartdev.github.io/aurummetalsoneweb/',
-    output: 'static',
+    site: 'https://kcmsmartdev.github.io',
+  base: '/aurummetalsoneweb/',
+  output: 'static',
 });
